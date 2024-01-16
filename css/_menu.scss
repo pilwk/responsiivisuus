@@ -1,0 +1,15 @@
+nav{
+    display: inherit;
+    align-items: center;
+    border-top: 1px solid $dark-foreground-color;
+    border-bottom: 1px solid $dark-foreground-color;
+    height: 40px;
+    ul{
+        padding-left: calc($general-padding / 2);
+        li{
+            display: inline-block;
+            width:5em;
+            margin-right: $general-margin;
+        }
+    }
+}
